@@ -145,6 +145,7 @@ Last change:    00/00/00
 			APIHUPORTPortfolio: function () {
 				var $grid = $('.apihu-port-portfolio-grid').isotope({
 					itemSelector: '.apihu-port-portfolio-item',
+					filter: '.EasiManager',
 					percentPosition: true,
 					masonry: {
 						columnWidth: 1
