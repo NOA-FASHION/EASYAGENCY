@@ -2045,8 +2045,49 @@ button.apihu-port-primary-btn:hover {
   -webkit-animation: apihuPortUpsDown 3s infinite linear alternate;
           animation: apihuPortUpsDown 3s infinite linear alternate;
 }
+.apihu-port-portfolio-area .apihu-port-portfolio-navigation1  {
+  margin-bottom: 50px;
+}
 
-.apihu-port-portfolio-area .apihu-port-portfolio-navigation {
+.apihu-port-portfolio-area .apihu-port-portfolio-navigation1 ul {
+  background: #e3edf7;
+  border-radius: 5px;
+  display: inline-block;
+  -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgba(127, 163, 199, 0.3);
+          box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgba(127, 163, 199, 0.3);
+}
+
+.apihu-port-portfolio-area .apihu-port-portfolio-navigation1 ul li {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #08203a;
+  line-height: 1;
+  padding: 20px 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.apihu-port-portfolio-area .apihu-port-portfolio-navigation1 ul li:hover {
+  background: linear-gradient(103deg, #e3edf7, #ffffff);
+  -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgba(127, 163, 199, 0.3);
+          box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgba(127, 163, 199, 0.3);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  border-radius: 5px;
+}
+
+.apihu-port-portfolio-area .apihu-port-portfolio-navigation1 ul li.active {
+  background: linear-gradient(103deg, #e3edf7, #ffffff);
+  -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgba(127, 163, 199, 0.3);
+          box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgba(127, 163, 199, 0.3);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  border-radius: 5px;
+}
+
+.apihu-port-portfolio-area .apihu-port-portfolio-navigation  {
   margin-bottom: 50px;
 }
 
@@ -2941,3 +2982,15 @@ button.apihu-port-primary-btn:hover {
   border-radius: 5%;
 }
 
+.justifyText{
+  text-align: justify;
+}
+#video1 {
+  border-radius: 30px;
+  margin-top: 90;
+  }
+
+  #video2 {
+  
+    border-radius: 30px;
+    }

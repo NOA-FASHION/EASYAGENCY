@@ -25,6 +25,7 @@ Last change:    00/00/00
 				this.APIHUPORTStickyMenu();
 				this.APIHUPORTMobileMenu();
 				this.APIHUPORTPortfolio();
+				this.APIHUPORTPortfolio1();
 				this.APIHUPORTTestimonialCarousel(); 
 				this.APIHUPORTClientsCarousel();
 				this.APIHUPORTBlogCarousel();
@@ -158,6 +159,28 @@ Last change:    00/00/00
 				});
 				
 				$('.apihu-port-portfolio-navigation').on('click', 'li', function() {
+					$(this).addClass('active').siblings().removeClass('active');
+				});
+			},
+
+
+			
+			APIHUPORTPortfolio1: function () {
+				var $grid = $('.apihu-port-portfolio-grid1').isotope({
+					itemSelector: '.apihu-port-portfolio-item',
+					filter: '.PriceEasyManager',
+					percentPosition: true,
+					masonry: {
+						columnWidth: 1
+					}
+				});
+
+				$('.apihu-port-portfolio-navigation1').on('click', 'li', function() {
+					var filterValue = $(this).attr('data-filter');
+					$grid.isotope({filter: filterValue});
+				});
+				
+				$('.apihu-port-portfolio-navigation1').on('click', 'li', function() {
 					$(this).addClass('active').siblings().removeClass('active');
 				});
 			},
