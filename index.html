@@ -118,7 +118,7 @@
 						<ul class="apihu-port-hero-btn-wrap wow slideInUp">
 							<li><a class="apihu-port-primary-btn apihu-port-hero-btn-gradient" href="#">Hire Me +</a>
 							</li>
-							<li><a class="apihu-port-secondary-btn apihu-port-hero-btn-white" href="#">Download CV <i
+							<li><a class="apihu-port-secondary-btn apihu-port-hero-btn-white" href="https://michel-almont.com/">Portfolio <i
 										class="fas fa-download"></i></a></li>
 						</ul>
 					</div>
@@ -1089,7 +1089,7 @@
 				<div class="col-xl-6 col-lg-6 text-left">
 					<div class="apihu-port-section-heading">
 						<p class="apihu-port-section-subtitle">Contactez nous</p>
-						<h2 class="apihu-port-section-title">Restons en contact </h2>
+						<h2 class="apihu-port-section-title">Restons en contact</h2>
 					</div>
 				</div>
 				<div class="col-xl-6 col-lg-6">
@@ -1100,37 +1100,42 @@
 					</div>
 				</div>
 			</div>
-
+	
 			<div class="row">
 				<div class="col-xl-6">
 					<div class="apihu-port-contact-left">
-						<form>
+						<form action="https://formsubmit.co/contact@arkanoa-media.com" method="POST">
 							<div class="row">
 								<div class="col-xl-6">
-									<input type="text" placeholder="First Name">
+									<input type="text" name="first_name" placeholder="Prénom" required>
 								</div>
 								<div class="col-xl-6">
-									<input type="text" placeholder="Last Name">
+									<input type="text" name="last_name" placeholder="Nom" required>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-xl-12">
-									<input type="email" placeholder="Email">
+									<input type="email" name="email" placeholder="Email" required>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-xl-12">
-									<input type="text" placeholder="Subject">
+									<input type="text" name="subject" placeholder="Sujet" required>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-xl-12">
-									<textarea placeholder="Message"></textarea>
+									<textarea name="message" placeholder="Message" required></textarea>
 								</div>
 								<div class="col-xl-12">
 									<button type="submit">Envoyer <i class="fas fa-plus"></i></button>
 								</div>
 							</div>
+	
+							<!-- Options supplémentaires pour la sécurité -->
+							<input type="hidden" name="_captcha" value="false">
+							<input type="hidden" name="_next" value="https://tonsite.com/merci.html">
+							<input type="hidden" name="_subject" value="Nouveau message depuis le site !">
 						</form>
 					</div>
 				</div>
@@ -1144,8 +1149,7 @@
 								<i class="flaticon-help"></i>
 							</div>
 							<div class="apihu-port-contact-text">
-
-								<span class="apihu-port-contact-email">contact@easyagency.com</span>
+								<span class="apihu-port-contact-email">contact@arkanoa-media.com</span>
 							</div>
 						</div>
 					</div>
@@ -1153,6 +1157,7 @@
 			</div>
 		</div>
 	</section>
+	
 	<!-- Contact End -->
 
 	<!-- Blog Start -->
