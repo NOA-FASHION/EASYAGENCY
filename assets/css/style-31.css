@@ -877,7 +877,7 @@ button.apihu-port-primary-btn:hover {
   position: absolute;
   top: 32%;
   left: -12%;
-  font-size: 177px;
+  font-size: 137px;
   line-height: 1;
   font-family: "Poppins", sans-serif;
   color: #e9f1f9;
@@ -2991,11 +2991,15 @@ button.apihu-port-primary-btn:hover {
   text-align: justify;
 }
 #video1 {
-  border-radius: 30px;
-  margin-top: 190px;
+  border-radius: 50px;
+  margin-top: 200px;
   }
 
   #video2 {
   
     border-radius: 30px;
+    }
+
+    .sizeImg{
+      width: 150px;
     }
